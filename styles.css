@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.recipe-list {
+    width: 500px;
+    margin: 0 auto;
+    padding: 8px; 
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.recipe {
+    background-color: #4d4242;
+}
+
+.recipe > h1, .recipe > h3 {
+    color: violet;
+}
+
+.recipe > img {
+    width: 250px;
+    height: auto;
+}
